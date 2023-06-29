@@ -9,7 +9,7 @@ import {Test, console} from "lib/forge-std/src/Test.sol";
 import {Vm} from "lib/forge-std/src/Vm.sol";
 import {StdCheats} from "lib/forge-std/src/StdCheats.sol";
 import {VRFCoordinatorV2Mock} from "../mocks/VRFCoordinatorV2Mock.sol";
-import {CreateSubscriptions} from "../../script/Interactions.s.sol";
+import {CreateSubscription} from "../../script/Interactions.s.sol";
 
 contract RaffleTest is StdCheats, Test {
     /* Errors */
